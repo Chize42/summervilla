@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>여름의 빌라</title>
+    <style>
+      @font-face {
+        font-family: "GowunDodum-Regular";
+        src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        background: rgb(199, 237, 224);
+        background: linear-gradient(
+          0deg,
+          rgb(255, 255, 255) 0%,
+          rgba(178, 214, 224, 1) 100%
+        );
+      }
+      header {
+        align-items: center;
+        height: 100px;
+        display: flex;
+        margin-bottom: 20px;
+      }
+      span {
+        font-size: 60px;
+        font-family: "GowunDodum-Regular";
+        padding: 10px 40px;
+        text-align: center;
+        color: rgb(20, 90, 75);
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #author {
+        font-size: 30px;
+        margin-top: 50px;
+        padding: 0px;
+      }
+      .container > div {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      div span {
+        position: absolute;
+        color: white;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 4px 25px;
+        top: -5px;
+      }
+      main > div {
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      .content {
+        width: 400px;
+        height: 200px;
+        padding: 0px 100px 0px 100px;
+      }
+      .n1 {
+        background-image: url("img/mo.png");
+        background-size: cover;
+        border-radius: 40px 40px 0 0;
+      }
+      .n2 {
+        background-color: rgb(109, 222, 253);
+        background-position-y: -200px;
+        background-image: url("img/mo.png");
+        background-size: cover;
+        height: 250px;
+      }
+      .n3 {
+        background-color: rgb(107, 233, 250);
+        background-position-y: -370px;
+        background-image: url("img/mo.png");
+        background-size: cover;
+      }
+      .n4 {
+        background-color: rgb(92, 247, 255);
+        background-image: url("img/mo2.jpg");
+        background-size: cover;
+        height: 230px;
+      }
+      .n5 {
+        background-color: rgb(118, 255, 248);
+        background-position-y: -200px;
+        background-image: url("img/mo2.jpg");
+        background-size: cover;
+      }
+      .n6 {
+        background-color: rgb(118, 255, 232);
+        background-position-y: -400px;
+        background-image: url("img/mo2.jpg");
+        background-size: cover;
+      }
+      .n7 {
+        background-color: rgb(118, 255, 216);
+        background-image: url("img/mo3.png");
+        background-size: cover;
+      }
+      .n8 {
+        background-color: rgb(118, 255, 196);
+        background-position-y: -65px;
+        background-image: url("img/mo3.png");
+        background-size: cover;
+        height: 230px;
+      }
+      p {
+        font-size: 16px;
+        font-family: "GowunDodum-Regular";
+        color: white;
+      }
+      footer {
+        height: 200px;
+        width: 100%;
+        background-color: #131a17;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      footer div {
+        height: 90px;
+        width: 90px;
+        background-color: white;
+        border-radius: 50%;
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      a {
+        text-decoration: none;
+        color: #131a17;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span>여름의 빌라</span>
+      <span id="author">- 백수린</span>
+    </header>
+    <main class="container">
+      <div>
+        <span>
+          <ion-icon name="chevron-back-outline"></ion-icon> 시간의 궤적
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </span>
+        <div class="content n1">
+          <p>
+            <br /><br />
+            어쩌면 좋을지 망설이는 사이, 언니가 먼저 우산을 펼쳐 들고 빗속으로
+            걸어들어갔다. 우산을 써봤자 아무 소용도 없는<br />
+            비였다. 언니는 이내 우산을 접더니 비를 쫄닥 맞은 채 나에게 빗속으로
+            들어오라고 손짓했다. 그리고 우리는 폭우 속을 <br />달렸다. 웃음을
+            터뜨리면서.
+          </p>
+        </div>
+      </div>
+      <div>
+        <span>
+          <ion-icon name="chevron-back-outline"></ion-icon>여름의 빌라
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </span>
+        <div class="content n2">
+          <p>
+            <br /><br />무無. 당신의 집 거실에 적혀있던 글자처럼, 사실은 우리<br />
+            사이에 아무것도 존재할 수 없음을 그저 받아들였다면 <br />좋았을
+            텐데. 사람은 어째서 이토록 미욱하여 타인과 나 <br />사이에 무언가가
+            존재하기를 번번이 기대하고 또 기대하는 <br />걸까요. ······
+            <br />나는 폐허 위에 끝까지 살아남아 창공을 향해 푸르게
+            <br />뻗어나가는 당신의 마지막 기억이 이것이었으면 좋겠습니다.
+          </p>
+        </div>
+      </div>
+      <div>
+        <span>
+          <ion-icon name="chevron-back-outline"></ion-icon>고요한 사건
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </span>
+        <div class="content n3">
+          <p>
+            <br /><br />마른눈. 자국눈. 가랑눈. 국어사전에서 내가 발견했던
+            무수한 단어로도 형용하기가 충분치 않던 눈송이. 그토록 숨막히는
+            광경을 나는 그전에도 그 이후에도 본 적이 없었다. 그리고 나는 차가운
+            유리창에 이마를 댄 채 그렇게 한동안 서 있었다. 구겨진 신발 위에,
+            양말도 없이, 까치발을 한 채로.
+          </p>
+        </div>
+      </div>
+      <div>
+        <span>
+          <ion-icon name="chevron-back-outline"></ion-icon>폭설
+          <ion-icon name="chevron-forward-outline"></ion-icon
+        ></span>
+        <div class="content n4">
+          <p>
+            <br /><br />차가 미끄러지듯 순식간에 자리에서 벗어났다. 구조대는
+            <br />그들을 구조해주고 유유히 사라져버렸고, 그들은 다시 달리기
+            시작했다. 차도 없고, 인가도 없고, 그날따라 날이 흐린 탓에 달도
+            보이지 않아 어느새 어둠의 바다 깊숙이 가라앉아버린 밤길을 달린 지 십
+            분도 지나지 않아 눈이라고는 찾아볼 수도 없는 도시가 나타났다. 마치
+            여름밤처럼.
+          </p>
+        </div>
+      </div>
+      <div>
+        <span>
+          <ion-icon name="chevron-back-outline"></ion-icon>아직 집에는 가지
+          않을래요 <ion-icon name="chevron-forward-outline"></ion-icon>
+        </span>
+        <div class="content n5">
+          <p>
+            <br /><br />오후의 햇살이 쏟아졌고 지붕은 불타오르는 듯 이글거렸다.
+            ··· 그는 틀림없이 욕망하는 것을 이루기 위해 목숨을 <br />걸어봤겠지?
+            불현듯 그녀는 자신이 지금껏 누구에게도 떼쓰지 않았음을 깨달았다.
+            일찍 철이 든 척했지만 그녀의 삶은 그저 거대한 체념에 불과했음을.
+          </p>
+        </div>
+      </div>
+      <div>
+        <span
+          ><ion-icon name="chevron-back-outline"></ion-icon>흑설탕 캔디
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </span>
+        <div class="content n6">
+          <p>
+            <br /><br />하지만 할머니는 이제 알았다. 퇴화하는 것은 육체뿐이라는
+            사실을. 그런 생각을 할 때면 어김없이 인간이 평생 지은 죄를 벌하기
+            위해 신이 인간을 늙게 만든 건 아닐까 하는 의문이 <br />들었다.
+            마음은 펄떡펄떡 뛰는 욕망으로 가득차 있는데 <br />육신이 따라주지
+            않는 것만큼 무서운 형벌이 또 있을까?
+          </p>
+        </div>
+      </div>
+      <div>
+        <span
+          ><ion-icon name="chevron-back-outline"></ion-icon>아주 잠깐 동안에
+          <ion-icon name="chevron-forward-outline"></ion-icon
+        ></span>
+        <div class="content n7">
+          <p>
+            <br /><br />집으로 가기 위해 서둘러 산책로를 따라 걷는 동안 간혹<br />
+            고양이들이 싸우는 소리가 어디선가 들렸지만 사람은 하나도 보이지
+            않았다. 보도 위를 디딜 때마다 적막을 깨는 발소리, 단 한 사람,
+            자신만의 발소리를 들으며 걷고 있자니 그는 <br />느닷없이 광활한
+            세계에 혼자 버려진 것만같은 기분이 들었다
+          </p>
+        </div>
+      </div>
+      <div>
+        <span
+          ><ion-icon name="chevron-back-outline"></ion-icon>아카시아 숲, 첫
+          입맞춤 <ion-icon name="chevron-forward-outline"></ion-icon>
+        </span>
+        <div class="content n8">
+          <p>
+            <br /><br />새털처럼 가볍게 부유하던 꽃잎들. 연두색 나뭇잎 사이로
+            <br />너울대던 초여름의 빛. 바람이 불면 나뭇잎들이 밀어를
+            <br />주고받듯 서로 속삭였고, 순백의 아카시아 꽃송이들이
+            <br />흔들릴 때마다 사방은 향기로 가득 차올랐다. 그렇게 달콤한 향에
+            혼곤히 취해 있다보면 오후는 더없이 느리게 흘렀고<br />
+            나는 쉽게 무한 같은 것들을 떠올렸다.
+            <!-- <br /><br />햇살에 투명하게 반짝이던 나비들. 유속이 느린 수면
+            가까이에서 느리게 날다가 순식간에 저만치 솟구치던 작은 새들. 다미의
+            말에 얼마만큼의 진실과 거짓이 섞여 있는지는 나에게 중요하지 않았다.
+            다미가 들려주는 것은 내가 상상할 수 없는 일들로 이루어진 매혹적인
+            서사였으니까 -->
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a
+        href="https://www.youtube.com/watch?v=cvl14kVj1d0&ab_channel=Allwaswell"
+      >
+        <div><i class="fa-solid fa-play fa-2x"></i></div
+      ></a>
+      <a href="https://product.kyobobook.co.kr/detail/S000000780660"
+        ><div><i class="fa-solid fa-plus fa-2x"></i></div
+      ></a>
+      <a href="https://www.instagram.com/sl.baik/">
+        <div><i class="fa-brands fa-instagram fa-3x"></i></div>
+      </a>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/56745053e8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
